@@ -1,8 +1,8 @@
 ---
-title: "How to connect to Ripple (Linux)"
+title: "How to connect to Mansion (Linux)"
 old_id: 14
 ---
-This guide is only for connecting osu! to ripple, and not setting the game itself up. You can follow [this guide](https://gist.github.com/Francesco149/a2f796683a4e5195458f4bb171d88eb0) to set the client up.
+This guide is only for connecting osu! to Mansion, and not setting the game itself up. You can follow [this guide](https://gist.github.com/Francesco149/a2f796683a4e5195458f4bb171d88eb0) to set the client up.
 
 ### Modifying the hosts file
 For this, you will need to modify your *hosts* file. To do so, run `nano /etc/hosts` as root/with sudo.
@@ -16,7 +16,7 @@ When you've got it open, paste the following at the bottom:
 **CTRL+X** and then **Enter** to save the file.
 
 ### Installing the certificate
-Download the certificate by clicking [*here*](https://git.zxq.co/ripple/ripple-server-switcher/raw/master/RippleServerSwitcher/Resources/certificate.cer)
+Download the certificate by clicking [*here*](http://dl.themansions.nl/cert.crt)
 
 Open the Internet Explorer configuration by running `wine control`.
 
@@ -24,7 +24,7 @@ Double click the *Internet Settings* icon, navigate to the *Content* tab, then c
 
 Click on *Import*, then *Next*.
 
-Click *Browse...* then select the Ripple certificate.
+Click *Browse...* then select the Mansion certificate.
 
 Click *Next*.
 
@@ -37,4 +37,4 @@ Click *Next*, *Finish*.
 You should get a message saying **The import was successful**.
 
 
-After that is done, you can start the client up, and log in with your Ripple credentials.
+After that is done, you can start the client up, and log in with your Mansion credentials.
